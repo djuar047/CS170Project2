@@ -282,7 +282,8 @@ vector<int> backwardElimination(const vector<vector<double>>& data) {
 
 int main() {
     cout << "Welcome, This program uses Forward Elimination or Backward Elimination to find the best subset of features " << endl;
-    cout << "Type in the name of the file to test: (e.g. CS170_Large_Data__12.txt) ";
+    cout << "Type in the name of the file to test: (e.g. CS170_Large_Data__12.txt): " << endl;
+    cout << endl;
     string filename;
     cin >> filename;
     cout << endl;
